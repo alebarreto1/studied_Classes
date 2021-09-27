@@ -1,0 +1,42 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #30384c;
+    color: #fff;
+}
+
+button{
+    margin: 0;
+    padding: 16px 32px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+input{
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 8px 16px;
+}
+
+.hidden{display:none;}
+
+.main{
+    height: 100%;
+    display: grid;
+    grid-auto-rows: auto; /*cria linhas*/
+    gap: 18px; /*espaço entre as linhas*/
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
