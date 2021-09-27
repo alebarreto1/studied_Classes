@@ -48,13 +48,5 @@ server.delete('/cursos/:index', (req, res) => {
     return res.json({message: "O curso foi deletado com sucesso!"});
 });
 
-
-
-
-
-
-
-
-
 //para a aplicação rodar ela precisa de uma porta:
 server.listen(3000);
